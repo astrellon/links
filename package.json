@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A repo for links",
   "main": "index.js",
+  "watch": {
+    "build": "src/*.*"
+  },
   "scripts": {
     "scss": "node-sass build/styles.scss build/styles.css",
     "prebuild": "mkdir -p build && cp src/* build/",
