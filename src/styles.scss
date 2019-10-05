@@ -138,3 +138,8 @@ h1,h2 {
     font-size: 150%;
   }
 }
+
+@keyframes background-scrolling {
+  0% { background-position-x: 0px; }
+  100% { background-position-x: 10000px; }
+}
